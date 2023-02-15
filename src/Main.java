@@ -67,7 +67,7 @@ public class Main {
         int total = 0;
         for (int i = 0; i < 12; i++) {
             total = total + contribution;
-            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
+            System.out.println("Месяц " + i + " ,сумма накоплений равна " + total + " рублей");
         }
         System.out.println(total);
     }
@@ -79,7 +79,7 @@ public class Main {
         for (int i = 0; i < 12; i++) {
             total = total + total / 100;
             total = total + deposit;
-            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
+            System.out.println("Месяц " + i + " ,сумма накоплений равна " + total + " рублей");
         }
         System.out.println(total);
     }
